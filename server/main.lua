@@ -1,6 +1,6 @@
 local utils = require 'utils'
 local isESX = GetResourceState("es_extended") ~= "missing"
-local isQB = GetResourceState("qb-core") ~= "missing"
+local isQB = GetResourceState("qbx_core") ~= "missing"
 local isOX = GetResourceState("ox_core") ~= "missing"
 local FrameworkObj = {}
 local isReady = false
