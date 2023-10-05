@@ -16,7 +16,9 @@ dependencies {
 
 shared_scripts {
 	'@ox_lib/init.lua',
-    'config.lua'
+    	'@qbx_core/import.lua',
+    	'@qbx_core/shared/locale.lua',
+    	'config.lua'
 }
 
 server_scripts {
@@ -25,6 +27,11 @@ server_scripts {
 
 client_scripts {
     'client/*.lua'
+}
+
+modules {
+    'qbx_core:playerdata',
+    'qbx_core:utils',
 }
 
 files {
