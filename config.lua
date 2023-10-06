@@ -1,7 +1,7 @@
 MBT = {}
 MBT.Debug = false
 MBT.DropWeaponOnDeath = true
-MBT.EnableSling = false
+MBT.EnableSling = true
 MBT.EnableFlashlight = true
 MBT.Relog = false -- Put this to true if you have a esx_multicharacter and relog enabled!
 
